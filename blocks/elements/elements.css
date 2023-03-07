@@ -4,11 +4,13 @@
   grid-template-rows: auto;
   justify-content: center;
   grid-gap: 20px 17px;
-  padding-top: 51px;
+  padding: 51px 0 0;
   margin: 0;
+  list-style-type: none;
+
 }
 
-@media screen and (max-width: 767px) {
+@media all and (max-width: 767px) {
   .elements {
     grid-template-columns: repeat(1, 282px);
     grid-column-gap: 20px;
